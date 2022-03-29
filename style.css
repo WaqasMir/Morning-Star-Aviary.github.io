@@ -188,6 +188,11 @@
     font-size: 1.5rem;
 }
 
+.cshadow {
+    box-shadow: 5px 10px 1.8rem #888888;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 540px) {
     .simage {
         height: 15rem;
