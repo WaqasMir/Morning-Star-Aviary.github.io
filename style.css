@@ -100,10 +100,17 @@
     text-align: center;
 }
 
+.gal1 {
+    width: 46vw !important;
+    margin-left: 1rem;
+}
+
+.gal2 {
+    width: 46vw !important;
+}
+
 .footer {
-    height: 30vh;
-    position: absolute;
-    bottom: 0;
+    height: 20vh;
     background-color: #083339;
     margin-top: 2vh;
     display: flex;
@@ -144,5 +151,8 @@
     }
     .foot-text {
         width: 50vw;
+    }
+    .gal1 {
+        margin-left: 0rem;
     }
 }
