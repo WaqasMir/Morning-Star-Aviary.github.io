@@ -22,7 +22,7 @@
             <li class="ahome"><a href="index.html">Home</a></li>
         </ul>
         <ul>
-            <li><a class="services" href="Order_Now.html">Contact Us</a></li>
+            <li><a class="services" href="tel:+923070408790">Contact Us</a></li>
         </ul>
     </nav>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -69,6 +69,8 @@
         </div>
     </div>
     <!-- Cards Body -->
+
+    <!-- Footer Code -->
     <div class="container-fluid footer">
         <div class="foot-text">
             <div class="text-big text-white">
@@ -78,16 +80,16 @@
                 <h6>
                     WhatsApp Number
                 </h6>
-                <div class="ft-text number" onclick="copyText()" id="cnumber">
+                <a class="contact" href="tel:+923070408790">
                     +923070408790
-                </div>
+                </a>
             </div>
             <div class="text-white ft-text mnumber">
                 <h6>
                     Mobile Number
                 </h6>
                 <div class="ft-text number" onclick="copyText()">
-                    <a href="tel:+923070408790">
+                    <a class="contact" href="tel:+923070408790">
                         +923070408790
                     </a>
                 </div>
@@ -106,32 +108,6 @@
             duration: 1000,
         });
     </script>
-    <script type="text/javascript">
-        (function() {
-            var options = {
-                sms: "+923070408790", // Sms phone number
-                call: "+923070408790", // Call phone number
-                call_color: "#129BF4", // Call button color
-                call_to_action: "Contact us", // Call to action
-                button_color: "#FF6550", // Color of button
-                position: "left", // Position may be 'right' or 'left'
-                order: "call,sms", // Order of buttons
-            };
-            var proto = document.location.protocol,
-                host = "getbutton.io",
-                url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        })();
-    </script>
-
 </body>
 
 </html>

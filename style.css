@@ -16,10 +16,9 @@
     position: absolute;
     top: 0;
     height: 30rem;
-    background-color: rgb(22, 22, 22);
     z-index: 0;
-    opacity: 0.5;
     width: 100%;
+    color: white;
 }
 
 #navbar {
@@ -88,11 +87,6 @@
     height: 3rem;
 }
 
-.cmargin {
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
 .text-big {
     font-size: 2rem;
     font-family: cursive;
@@ -106,91 +100,30 @@
     text-align: center;
 }
 
-.fcard {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.cardbg {
-    background-color: rgb(239, 239, 239);
-    width: 20rem;
-}
-
-.header-text {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.text-right {
-    text-align: right;
-    margin-bottom: 0;
-    font-family: 'Baloo Chettan 2', Bold;
-}
-
-
-/* .gallery {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    height: 4rem;
-    width: 9rem;
-    flex-wrap: wrap;
-}
-
-.gimg {
-    margin-left: 0.3rem;
-    margin-top: 0.2rem;
-}
-
-.gcard {
-    width: 15rem;
-    height: 5.5rem;
-}
-
-.gcontainer {
-    height: 15rem;
-} */
-
 .footer {
     height: 30vh;
+    position: absolute;
+    bottom: 0;
     background-color: #083339;
     margin-top: 2vh;
     display: flex;
     width: 100vw;
-    flex-direction: row;
-}
-
-.footbtn {
-    font-family: 'Baloo Chettan 2', cursive;
-    margin-top: 1rem;
-    color: white !important;
-}
-
-.footbtn:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
-.fbtn {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
+    justify-content: center;
 }
 
 .foot-text {
-    justify-self: center;
-    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.ft-text {
-    font-size: 1.5rem;
+.mnumber {
+    margin-top: 1rem;
 }
 
-.cshadow {
-    box-shadow: 5px 10px 1.8rem #888888;
-    cursor: pointer;
+.contact {
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 540px) {
@@ -203,12 +136,6 @@
     .carousal-text {
         height: 13rem;
     }
-    .gcard {
-        width: 9rem;
-    }
-    .cardbg {
-        width: 15rem;
-    }
     .gcontainer {
         height: 10.3rem;
     }
@@ -217,9 +144,5 @@
     }
     .foot-text {
         width: 50vw;
-    }
-    .fbtn {
-        margin-left: 0;
-        width: 7rem;
     }
 }
