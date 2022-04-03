@@ -99,14 +99,14 @@
 }
 
 .text-small {
-    padding: 0.3em;
     font-size: 1.5rem;
     font-family: cursive;
     text-align: center;
+    margin-left: 1;
 }
 
 .cont {
-    width: 100vw;
+    width: 98vw;
     margin-left: 0.4rem;
 }
 
@@ -140,13 +140,16 @@
     justify-content: center;
 }
 
-.mnumber {
-    margin-top: 1rem;
-}
-
 .contact {
     text-decoration: none;
     color: white;
+    margin-left: 0.5rem;
+}
+
+.mnumber {
+    display: flex;
+    flex-direction: row;
+    margin-left: -2rem;
 }
 
 @media screen and (max-width: 540px) {
@@ -169,10 +172,11 @@
         height: 10.3rem;
     }
     .ft-text {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+        margin-left: 0.9rem;
     }
     .foot-text {
-        width: 50vw;
+        width: 20rem;
     }
     .gal1 {
         margin-left: 0.7rem;
@@ -182,5 +186,11 @@
     }
     .elevation {
         box-shadow: 8px 7px 8px #aaaaaa;
+    }
+    .contact {
+        margin-left: 0.7rem;
+    }
+    .mnumber {
+        margin-left: -0.7rem;
     }
 }
