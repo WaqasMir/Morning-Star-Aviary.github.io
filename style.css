@@ -105,6 +105,11 @@
     text-align: center;
 }
 
+.cont {
+    width: 100vw;
+    margin-left: 0.4rem;
+}
+
 .gal1 {
     width: 46vw !important;
     margin-left: 1rem;
@@ -116,7 +121,7 @@
 
 .elevation {
     border: 2px #bfbfbf solid;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 9px 5px 8px #aaaaaa;
     border-radius: 0.7rem;
 }
 
@@ -170,9 +175,12 @@
         width: 50vw;
     }
     .gal1 {
-        margin-left: 0;
+        margin-left: 0.7rem;
     }
     .mbview {
-        margin-top: 0.29rem !important;
+        margin-top: 0.9rem !important;
+    }
+    .elevation {
+        box-shadow: 8px 7px 8px #aaaaaa;
     }
 }
