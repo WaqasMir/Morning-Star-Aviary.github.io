@@ -114,6 +114,12 @@
     width: 46vw !important;
 }
 
+.elevation {
+    border: 2px #bfbfbf solid;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 0.7rem;
+}
+
 .footer {
     height: 20vh;
     background-color: #083339;
@@ -140,10 +146,10 @@
 
 @media screen and (max-width: 540px) {
     .gal1 {
-        height: 20vh;
+        height: 18vh;
     }
     .gal2 {
-        height: 20vh;
+        height: 18vh;
     }
     .simage {
         height: 15rem;
@@ -164,6 +170,9 @@
         width: 50vw;
     }
     .gal1 {
-        margin-left: 0rem;
+        margin-left: 0.29rem;
+    }
+    .mbview {
+        margin-top: 0.29rem !important;
     }
 }
