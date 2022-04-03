@@ -188,9 +188,9 @@
         box-shadow: 8px 7px 8px #aaaaaa;
     }
     .contact {
-        margin-left: 0.7rem;
+        margin-left: 0.7rem !important;
     }
     .mnumber {
-        margin-left: -0.7rem;
+        margin-left: -0.7rem !important;
     }
 }
