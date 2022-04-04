@@ -231,4 +231,7 @@
     #offcanvasExample {
         width: 70vw !important;
     }
+    .navbar {
+        margin-left: 0.6rem !important;
+    }
 }
